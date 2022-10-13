@@ -1,2 +1,6 @@
 # Projeto-de-Transfer-Learning-em-Python-
-# Aprendizado de transferência / ajuste fino
+Aprendizado de transferência / ajuste fino
+
+Este projeto irá guiá-lo através do processo de uso de _transfer learning_ para aprender um classificador de imagem preciso a partir de um número relativamente pequeno de amostras de treinamento. De um modo geral, a aprendizagem de transferência refere-se ao processo de alavancagem do conhecimento aprendido em um modelo para a formação de outro modelo. 
+
+Mais especificamente, o processo envolve tomar uma rede neural existente que foi previamente treinada para um bom desempenho em um conjunto de dados maior, e usá-la como base para um novo modelo que aproveita a precisão da rede anterior para uma nova tarefa. Este método tornou-se popular nos últimos anos para melhorar o desempenho de uma rede neural treinada em um pequeno conjunto de dados; a intuição é que o novo conjunto de dados pode ser muito pequeno para treinar para um bom desempenho por si só, mas sabemos que a maioria das redes neurais treinadas para aprender características de imagem muitas vezes aprendem características semelhantes de qualquer maneira, especialmente em camadas iniciais onde são mais genéricas (detectores de borda, bolhas, e assim por diante).
